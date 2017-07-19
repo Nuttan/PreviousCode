@@ -41,7 +41,7 @@ public class CheckingFailedOnes {
 	{
 	                Thread.sleep(3000);                                                       
 	                File screenShot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	                // Now you can do whatever you need to do with it, for example copy somewhere for arpit
+	                // Now you can do whatever you need to do with it, for example copy somewhere for arpit demo
 	                try {
 	                            FileUtils.copyFile(screenShot, new File("D:\\CST-AutomationScreenshots\\"+scrnshtName+".png"));
 	                    } 
