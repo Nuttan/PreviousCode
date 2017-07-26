@@ -6,6 +6,8 @@
   <test name="Carrier SMART POM Test">
     <classes>
     <class name="com.pack.common.tests.DeviceDetailsTest"/>
+    <class name="com.pack.common.tests.SectionDetailsTest"/>
+    <class name="com.pack.common.tests.AdminFunctionTest"/>
 
     </classes>
   </test> <!-- Test -->
