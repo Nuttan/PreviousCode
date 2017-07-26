@@ -50,6 +50,8 @@ public class CheckingFailedOnes {
 	                                                                               
 	                     e.printStackTrace();
 	                }
+	                
+	                System.out.println("Arpit married just now");
 	}
 		
 	
