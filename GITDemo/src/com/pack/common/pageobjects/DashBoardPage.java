@@ -66,7 +66,7 @@ public class DashBoardPage extends TestBaseSetUp{
 		UsrnameField.sendKeys(Keys.TAB);
 		Thread.sleep(30000);
 		userActions.clickOn(cookiesButton);
-		System.out.println("cookies button clicked nuttan");
+		System.out.println("cookies button clicked for arpit");
 	}
 
 
