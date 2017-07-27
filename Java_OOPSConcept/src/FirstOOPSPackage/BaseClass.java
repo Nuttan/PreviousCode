@@ -4,7 +4,7 @@ public class BaseClass {
 	
 	BaseClass ()
     {
-        System.out.println("Base Class Constructor executed and same for nuttan");
+        System.out.println("Base Class Constructor executed and same for nuttan abhijan again");
     }
                                  
     public void Write ()
