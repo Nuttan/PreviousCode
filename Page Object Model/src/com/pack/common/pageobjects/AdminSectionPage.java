@@ -58,7 +58,7 @@ public class AdminSectionPage extends TestBaseSetUp {
   	Reviewed By                       : 
    **/ 
 	
-	static By chillerTabIcon = By.xpath("//div[contains(text(),'Chillers')]");
+	static String chillerTabIcon ="CarrierSmart.Admin.ChillerTab.Xpath";
 	static By cstDropDwn = By.xpath("(//option[contains(text(),'CustomerHRDC_')]/parent::node())[2]");
 	static By serialNumElement = By.xpath("(//div[contains(text(),'Serial Number')]/parent::node()/div[2]/input)[1]");
 	static By cityElement = By.xpath("(//div[contains(text(),'Location City')]/parent::node()/div[2]/input)[1]");
@@ -165,8 +165,7 @@ public class AdminSectionPage extends TestBaseSetUp {
 	public  void chillerRegistrationNewCustomer(WebDriver driver) throws InterruptedException, IOException 
 	{
 		ExtentTest test1=report.startTest("chillerRegistrationNewCustomer");
-		WebElement chillerTab = (new WebDriverWait(driver, 40)).until(ExpectedConditions.elementToBeClickable(chillerTabIcon));
-		chillerTab.click();
+		userActions.clickOn(chillerTabIcon);
 		Thread.sleep(6000);
 		Select custDropdown = new Select(driver.findElement(cstDropDwn));
 		List<WebElement> customerList =custDropdown.getOptions();
