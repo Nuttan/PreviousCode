@@ -37,7 +37,7 @@ public class ArpitAddUserAutomationScript {
   {
 
           
-///////////// Common steps starts here  //////////////////////
+///////////// Common steps starts here+NuttanModified  //////////////////////
                  System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver_win32 (2)\\chromedriver.exe");
                  driver = new ChromeDriver();
 //                System.setProperty("webdriver.gecko.driver","D:\\Shared\\Selenium\\gecko_ver_11.0_compatible_with_Firefox50\\geckodriver.exe");
