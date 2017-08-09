@@ -46,7 +46,7 @@ public class TestBaseSetUp {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(appConfig.getAppUrl());
-		//driver.navigate().to(appURL);
+		//driver.navigate().to(appURL)online checkin;
 		return driver;
 	}
 
