@@ -46,7 +46,11 @@ public class TestBaseSetUp {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(appConfig.getAppUrl());
+<<<<<<< .mine
 		//driver.navigate().to(appURL);arpit demo+india +second time +third time
+=======
+		//driver.navigate().to(appURL);arpit demo+india +second time
+>>>>>>> .theirs
 		return driver;
 	}
 
