@@ -26,7 +26,7 @@ public class WebElementFactory {
 	   protected WebDriver driver;    
 	   
 	   
-	   private static File src=new File("D:\\NuttanEclipseWorkSpace\\Page Object Model\\config.properties");
+	   private static File src=new File("C:\\Users\\cstadmin\\Git\\Page Object Model\\config.properties");
 
        public WebElementFactory(WebDriver driver)
        {
