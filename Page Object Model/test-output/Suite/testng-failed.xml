@@ -7,10 +7,8 @@
     <classes>
       <class name="com.pack.common.tests.DashboardPageTest">
         <methods>
+          <include name="verifyDashboardPageFunctionality"/>
           <include name="setUp"/>
-          <include name="validateSortingFunctionality"/>
-          <include name="validateAlarmsandAlertChillerCount"/>
-          <include name="validateRunningChillerCount"/>
           <include name="tearDown"/>
           <include name="initializeTestBaseSetup"/>
         </methods>

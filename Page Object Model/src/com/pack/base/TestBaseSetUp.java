@@ -18,7 +18,7 @@ public class TestBaseSetUp {
 	private WebDriver driver;
 	public static ExtentReports report=new ExtentReports("D:\\CST-AutomationScreenshots\\DashboardAutomation.html");
 	public  ExtentTest test1;
-	static String driverPath = "D:\\chromedriver_win32\\chromedriver.exe";
+	static String driverPath = "D:\\chromedriver_win32\\chromedriver_win32 (2)\\chromedriver.exe";
 	static LoadAppConfig appConfig=new LoadAppConfig();
 
 	public WebDriver getDriver() {
