@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appURL" value="https://smartservicedev.carrier.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pack.common.tests.DashboardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateSortingFunctionality"/>
+          <include name="validateAlarmsandAlertChillerCount"/>
+          <include name="validateRunningChillerCount"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.DashboardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

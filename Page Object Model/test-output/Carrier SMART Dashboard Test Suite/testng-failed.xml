@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Carrier SMART Dashboard Test Suite]">
+  <parameter name="appURL" value="https://smartservicedev.carrier.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Carrier SMART POM Test(failed)">
+    <classes>
+      <class name="com.pack.common.tests.SectionDetailsTest">
+        <methods>
+          <include name="validateSectionDetailsPage"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.common.tests.SectionDetailsTest -->
+    </classes>
+  </test> <!-- Carrier SMART POM Test(failed) -->
+</suite> <!-- Failed suite [Carrier SMART Dashboard Test Suite] -->

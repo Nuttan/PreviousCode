@@ -50,11 +50,8 @@ public class CheckingFailedOnes {
 	                                                                               
 	                     e.printStackTrace();
 	                }
-	}
-		
-	
-		
-		
+	                
+	}		
 	@Test(alwaysRun=true, priority=0,enabled=true)
 	public static void LoginAutomatic() throws InterruptedException
 	{
@@ -577,7 +574,7 @@ public class CheckingFailedOnes {
      public void close()
      {
 
-    	 report.flush();
+    	report.flush();
      	driver.get("D:\\CST-AutomationScreenshots\\CSTAutomation.html");
      }
 	
